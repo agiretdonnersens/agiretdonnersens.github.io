@@ -13,5 +13,9 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 app.use(robots(__dirname + '/robots.txt'));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, 'public')));
 
+// routes
 app.get('/', routes.index);
