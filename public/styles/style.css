@@ -10,8 +10,10 @@ p, li{
 
 /* navbar */
 .options-navbar{
+	margin: 5px 3%;
 	background-color: white !important;
 	border-bottom: 4px solid #40F030;
+	border-radius: 50px;
 }
 
 #nav-menu ul li {
@@ -21,17 +23,32 @@ p, li{
 	display: block;
 	position: relative;
 	font-size: 16px;
-	padding : 12px 25px;
+	margin: 3% 6%;
 }
 
 #nav-menu {
 	padding-left: 30px;
 } 
 
-.active li:hover{
+#nav-menu li:hover a:hover{
 	background-color: #40F030;
 	color: white;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	display:inline-block;
+	transition: background 0.3s;
 }
 
+a{
+	color: #333;
+}
+
+#nav-menu li:hover a{
+	color: white;
+	text-decoration: none;
+}
+
+#Agiretdonnersens{
+	margin-top: 3%;
+	font-family: Pacifico;
+	font-size: 16px;
+	color: #DB76CE;
+}
