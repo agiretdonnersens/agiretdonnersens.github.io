@@ -12,7 +12,7 @@ p, li{
 .options-navbar{
 	margin: 5px 3%;
 	background-color: white !important;
-	border-bottom: 4px solid #40F030;
+	border-bottom: 3px solid #40F030;
 	border-radius: 50px;
 }
 
@@ -21,18 +21,16 @@ p, li{
 	margin-bottom: 0px;
 	float: left;
 	display: block;
-	position: relative;
 	font-size: 16px;
-	margin: 3% 6%;
+	padding: 3% 6%;
 }
 
 #nav-menu {
 	padding-left: 30px;
 } 
 
-#nav-menu li:hover a:hover{
+#nav-menu li:hover{
 	background-color: #40F030;
-	color: white;
 	display:inline-block;
 	transition: background 0.3s;
 }
@@ -51,4 +49,8 @@ a{
 	font-family: Pacifico;
 	font-size: 16px;
 	color: #DB76CE;
+}
+
+.border-left {
+	border-top-left-radius: 20px;
 }
