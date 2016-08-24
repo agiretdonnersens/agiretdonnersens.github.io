@@ -31,7 +31,7 @@ p, li{
 .options-navbar{
 	margin: 5px 3%;
 	background-color: white !important;
-	border-bottom: 3px solid #40F030;
+	border-bottom: 3px solid #21FC71;
 	border-radius: 50px;
 }
 
@@ -41,15 +41,15 @@ p, li{
 	float: left;
 	display: block;
 	font-size: 16px;
-	padding: 3% 6%;
+	padding: 12px;
 }
 
 #nav-menu {
 	padding-left: 30px;
 } 
 
-#nav-menu li:hover{
-	background-color: #40F030;
+#nav-menu li:hover, #nav-menu li:after{
+	background-color: #21FC71;
 	display:inline-block;
 	transition: background 0.3s;
 }
@@ -58,7 +58,7 @@ a{
 	color: #333;
 }
 
-#nav-menu a li:hover {
+#nav-menu a li:hover, #nav-menu a li:after{
 	color: white;
 	text-decoration: none;
 }
@@ -73,5 +73,5 @@ a{
 /*page d'accueil*/
 
 hr {
-	border-top: 2px solid #40F030 !important;
+	border-top: 2px solid #21FC71 !important;
 }
