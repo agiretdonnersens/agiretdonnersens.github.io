@@ -8,6 +8,25 @@ p, li{
 	font-size: 14px;
 }
 
+.margin-top {
+	margin-top: 5%;
+}
+
+.margin-bottom {
+	margin-bottom: 5%;
+}
+
+.little-margin-top {
+	margin-top: 3%;
+}
+
+.little-margin-bottom {
+	margin-bottom: 3%;
+}
+
+.little-padding {
+	padding: 5px;
+}
 /* navbar */
 .options-navbar{
 	margin: 5px 3%;
@@ -49,4 +68,10 @@ a{
 	font-family: Pacifico, Sans-serif;
 	font-size: 16px;
 	color: #DB76CE;
+}
+
+/*page d'accueil*/
+
+hr {
+	border-top: 2px solid #40F030 !important;
 }
