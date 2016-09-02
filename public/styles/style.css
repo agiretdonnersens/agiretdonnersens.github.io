@@ -5,7 +5,7 @@ p, li, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 p, li{
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .margin-top {
@@ -73,5 +73,12 @@ a{
 /*page d'accueil*/
 
 hr {
-	border-top: 2px solid #21FC71 !important;
+	border-top: 1px solid #21FC71 !important;
+}
+
+.mini-title {
+	color: #21FC71;
+	border-bottom : 1px solid #21FC71;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
